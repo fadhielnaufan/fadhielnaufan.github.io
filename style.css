@@ -366,7 +366,9 @@ pre {
 }
 
 .about-grid {
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: 1fr;
+	max-width: 800px;
+	margin: 0 auto;
 }
 
 .about-card,
